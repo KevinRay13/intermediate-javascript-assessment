@@ -80,7 +80,9 @@ var boundToElephant = large.bind(elephant);
 // Use explicit binding to give capacity the context of crew
 // and return the bound function.
 
-// CODE HERE...
+let deathStar = (capacity, crew) => {
+  return capacity.bind(crew);
+};
 
 // *************
 // * PROBLEM 4 *
